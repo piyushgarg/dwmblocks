@@ -20,7 +20,7 @@ static const Block blocks[] = {
 	/* {"",	"sb-moonphase",	18000,	17}, */
 	/*{"",	"sb-doppler",	0,	13},*/
 	{"",	"sb-forecast",	18000,	5},
-	{"",	"sb-mailbox",	180,	12},
+	/*{"",	"sb-mailbox",	180,	12},*/
 	{"",	"sb-nettraf",	1,	16},
 	{"",	"sb-volume",	0,	10},
 	{"",	"sb-battery",	5,	3},
@@ -35,3 +35,4 @@ static char *delim = " ";
 // vim with the following line in your vimrc/init.vim:
 
 // autocmd BufWritePost ~/.local/src/dwmblocks/config.h !cd ~/.local/src/dwmblocks/; sudo make install && { killall -q dwmblocks;setsid dwmblocks & }
+
